@@ -4,8 +4,7 @@ import './App.css';
 import { Router} from "@reach/router"
 import Home from './Home'
 import NotFound from './NotFound'
-
-
+import Estado from './Estado'
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
       <Router>
      
      <Home   path="/home" /> 
-
+      <Estado path="/estado"/>
      <NotFound default />
     </Router>
     </div>
